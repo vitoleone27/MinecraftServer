@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "141b6059-75c2-476d-a234-8928432ee7cf",
+    "name": "Toyberg",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
