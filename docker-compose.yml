@@ -2,6 +2,8 @@ version: "3.9"
 services:
   minecraft:
     build: .
+    volumes:
+      - .:/minecraft
     ports:
       - "25565:25565"
     environment:
