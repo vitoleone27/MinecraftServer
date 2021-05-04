@@ -1,0 +1,11 @@
+reroll:
+  item:
+    type: DIAMOND_BLOCK
+    amount: 1
+  isEnabled: true
+  eachHeroRequiresPermissions: false
+  cooldown: 1
+powerOnStart:
+  isEnabled: true
+  showHero: true
+

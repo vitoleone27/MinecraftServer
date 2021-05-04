@@ -1,0 +1,117 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                   Introduction                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+# This is the config file for Server Essentials.
+# This config was generated for version 1.40.7
+
+# If you experience any issues please make sure that:-
+#     - Numeric values don't include any quotation marks or apostrophes.
+#     - All words that change text in game include quotation marks.
+#     - Don't change any words present before the ':'.
+
+############################################################
+# +------------------------------------------------------+ #
+# +              Server Essentials (Debug)              + #
+# +------------------------------------------------------+ #
+############################################################
+# Only enable this option if you want to see extra debug messages.
+#
+# Default: false
+debug: false
+############################################################
+# +------------------------------------------------------+ #
+# +              Server Essentials (Global)              + #
+# +------------------------------------------------------+ #
+############################################################
+# Changes the No Permission Message for ALL Commands
+no-permission-message: ""
+# Changes the prefix that appears at the start of every message and command.
+prefix: "[Server Essentials]"
+# Enable or Disable the Website command
+enable-website-command: true
+# Changes the '/website' command text
+# Permission is 'se.website'.
+website-command: "Website Command"
+# Enable or Disable the Discord command
+enable-discord-command: true
+# Changes the '/discord' command text
+# Permission is 'se.discord'.
+discord-command: "Discord Command"
+# Enable or Disable the First Time Join Message
+enable-first-time-join-message: true
+# Enable or Disable the Join Message
+enable-join-message: true
+# Enable or Disable the Leave Message
+enable-leave-message: true
+# Change the First Time Join Message.
+first-time-join: "&aWelcome to the Server!"
+# Change the Join Symbol that is displayed before the player's name.
+join-symbol: "&6[&a+&6]"
+# Change the Leave Symbol that is displayed before the player's name.
+leave-symbol: "&6[&c-&6]"
+# Enable or Disable the Rules command
+enable-rules-command: true
+# Enable or Disable the Playtime command
+enable-playtime-command: true
+# Enable to send players to the Spawn upon Joining
+spawn-on-join: false
+# Enable to send players to the Spawn upon Dying
+spawn-on-death: false
+# Remove all Potion Effects when using /heal
+remove-effects-on-heal: false
+# Vanish On Join
+vanish-on-join: false
+# Default Home Count
+default-home-count: 3
+# How long until Teleport Requests Timeout (in Seconds)
+teleport-cancel: 5
+############################################################
+# +------------------------------------------------------+ #
+# +              Server Essentials (Broadcast)           + #
+# +------------------------------------------------------+ #
+############################################################
+# Enable the Broadcasting function.
+broadcast: false
+# Add Broadcast Messages Here
+# Make sure to use the Format [- "(messagehere)"] on each line to add a new message into the cycle.
+broadcast-messages:
+- "Test Broadcast"
+- "Test Broadcast 2"
+# Ticks Between Each Message
+# 20 Ticks = 1 Second
+broadcast-delay: 1000
+############################################################
+# +------------------------------------------------------+ #
+# +              Server Essentials (MOTD)                + #
+# +------------------------------------------------------+ #
+############################################################
+# Enable the MOTD Message Upon Joining
+enable-motd: true
+# How long the Plugin will wait until the MOTD is sent to the player after joining (in Seconds)
+motd-delay: 100
+# Change the Messaging for the MOTD
+motd-message:
+  - '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+  - '&bThis Server uses Server Essentials!'
+  - '&aDownload the Plugin Today!'
+  - '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-'
+############################################################
+# +------------------------------------------------------+ #
+# +              Server Essentials (Discord)             + #
+# +------------------------------------------------------+ #
+############################################################
+# Enable Discord Integration for the Report Command
+enable-discord-integration: false
+# Change the name of the Discord Channel where report notifications are sent.
+# This name will have to be entered into the DiscordSRV config.yml File.
+# ["report-logs": "000000000000000000"] as an example.
+channel-name: report-logs
+# Adds a message that is pasted before the Embed Message is sent
+# Useful for pinging a group with all Staff Members inside when a Report is sent
+# Please make sure to paste the Group ID into the quotations for this to work correctly
+# To disable this leave the contents within the "" blank
+# Make sure to go to the DiscordSRV config.yml file and change 'DiscordChatChannelAllowedMentions' to include 'role' within the []
+group-id: ""

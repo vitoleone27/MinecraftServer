@@ -1,0 +1,36 @@
+Dragon:
+  colouredName: "&5&lDragon"
+  description: "You can throw fireballs."
+  skills:
+    fireballItem:
+      skill: GIVEITEM
+      canStore: false
+      canDrop: false
+      canLoseOnDeath: false
+      canDropOnDeath: false
+      loseItemOnHeroLoss: false
+      item:
+        type: FIRE_CHARGE
+        amount: 1
+        specialID: 3
+        metadata:
+          displayName: "&5&lDragon &7&lFireball"
+          isUnbreakable: true
+          lore:
+            - "&f&oYou can use this to throw dragon fireballs!"
+    throwableFireballs:
+      skill: THROWER
+      item:
+        type: FIRE_CHARGE
+        amount: 1
+        specialID: 3
+        metadata:
+          displayName: "&5&lDragon &7&lFireball"
+          isUnbreakable: true
+          lore:
+            - "&f&oYou can use this to throw dragon fireballs!"
+      ammoCost: 0
+      projectile: DRAGON_FIREBALL
+      cooldown: 30
+      cooldownMessage: "&#000-#300&&lFireball &fCooldown: %currentcooldown% seconds"
+      velocity: 0.5

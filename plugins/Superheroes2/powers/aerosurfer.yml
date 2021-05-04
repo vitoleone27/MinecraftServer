@@ -1,0 +1,21 @@
+Aerosurfer:
+  colouredName: "&7&lAerosurfer"
+  description: "You can create platforms under you by sneak + jumping"
+  skills:
+    aerosurfer:
+      skill: WALKER
+      blocksToPlace:
+        - "LIGHT_GRAY_STAINED_GLASS"
+        - "GRAY_STAINED_GLASS"
+      blocksToReplace:
+        - "AIR"
+        - "CAVE_AIR"
+        - "VOID_AIR"
+      isSneaking: true
+      blocksDrop: false
+      shouldRevert: true
+      revertsAfter: 10
+    speedWhenSneaking:
+      skill: SNEAKINGPOTION
+      type: SPEED
+      potency: 2
