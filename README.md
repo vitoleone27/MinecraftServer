@@ -13,7 +13,7 @@ docker-compose up --build -d
 *You are automatically given a hero once joining a server, but after
 entering the command /hero, a list of heroes will be provided to choose from
 
-#Technologies 
+# Technologies 
 AWS
 Docker
 Java
