@@ -14,8 +14,8 @@ docker-compose up --build -d
 entering the command /hero, a list of heroes will be provided to choose from
 
 # Technologies 
-AWS
-Docker
-Java
-Bukkit
-Spigot
+1. AWS
+2. Docker
+3. Java
+3. Bukkit
+4. Spigot
