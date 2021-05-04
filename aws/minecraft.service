@@ -1,0 +1,8 @@
+[Unit]
+Description=Launch Minecraft Spigot server on boot. Place in
+
+[Service]
+Type=simpleExecStart=/bin/bash /minecraft/mc_start.sh
+
+[Install]
+WantedBy=multi-user.target
